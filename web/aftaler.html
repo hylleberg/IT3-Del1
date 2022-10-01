@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aftaler</title>
+  <link rel="stylesheet" href="style_home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <p><a href="#" class="logo">DTU-EHR system</a> <img src="./ekglogo.png" width="" class="ekglogo">
+  </p>
+  <ul>
+    <li><a href="./home.html">Find patient</a></li>
+    <li><a href="./patienthome.html">Patientoverblik</a></li>
+    <li><a href="./aftaler.html" class="active">Aftaler</a></li>
+    <li><a href="#popup1">Log-ud</a></li>
+
+  </ul>
+
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Du er ved at logge ud</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content1">
+        Er du sikker på du vil logge ud?<br><br>
+        <button class="button" type="Submit">Ja tak</button>
+        <button class="button" type="Submit">Annuller</button>
+      </div>
+    </div>
+  </div>
+
+</header>
+<div class="main-content">
+  <div class="sidebar">
+    <div class="pBar">
+      <img src="niccage.jpg" width="150px" height="200px">
+      <div><h2>Cage, Nicolas</h2>
+        <b>Mand, 58 år</b>
+        <p>070164-1231</p><br>
+        <h3>Aktionsdiagnose:</h3>OCD (F42)
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <div class="content">
+    <div class="" id="aftaleMain">
+    <h3>Her kommer aftaler</h3><br>
+
+      <a href="#" id="linkSelectPage">Vælg aftale...</a><br><br>
+    </div>
+
+    <div class="hidden" id="aftaleSelect">
+     <h3>Du har valgt en aftale!</h3> <br>
+      <button class="button" type="Submit">Gem aftale</button><br><br>
+      <a href="#" id="linkGoBack">Gå tilbage...</a>
+
+    </div>
+
+  </div>
+</div>
+<script src="./home.js"></script>
+</body>
+</html>
